@@ -1,4 +1,4 @@
-package com.websystique.springmvc.controller;
+package br.com.xseed.controller;
 
 import java.util.List;
 import java.util.Map;
@@ -6,9 +6,10 @@ import java.util.stream.Collectors;
 
 import javax.validation.Valid;
 
-import com.websystique.springmvc.model.Funcionario;
-import com.websystique.springmvc.model.FuncionarioResponse;
-import com.websystique.springmvc.service.FuncionarioService;
+import br.com.xseed.model.Funcionario;
+import br.com.xseed.model.FuncionarioResponse;
+import br.com.xseed.service.FuncionarioService;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.stereotype.Controller;

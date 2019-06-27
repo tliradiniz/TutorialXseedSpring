@@ -1,4 +1,4 @@
-package com.websystique.springmvc.model;
+package br.com.xseed.model;
 
 import java.util.Map;
 

@@ -1,4 +1,4 @@
-package com.websystique.springmvc.model;
+package br.com.xseed.model;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

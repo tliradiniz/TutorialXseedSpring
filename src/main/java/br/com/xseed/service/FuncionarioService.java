@@ -1,8 +1,10 @@
-package com.websystique.springmvc.service;
+package br.com.xseed.service;
 
 import java.util.List;
-import com.websystique.springmvc.dao.FuncionarioDAO;
-import com.websystique.springmvc.model.Funcionario;
+
+import br.com.xseed.dao.FuncionarioDAO;
+import br.com.xseed.model.Funcionario;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

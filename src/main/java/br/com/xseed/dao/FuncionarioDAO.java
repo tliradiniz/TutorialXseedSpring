@@ -1,12 +1,13 @@
-package com.websystique.springmvc.dao;
+package br.com.xseed.dao;
 
 import java.util.List;
 
-import com.websystique.springmvc.model.Funcionario;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
+
+import br.com.xseed.model.Funcionario;
 
 @Repository
 public class FuncionarioDAO {
