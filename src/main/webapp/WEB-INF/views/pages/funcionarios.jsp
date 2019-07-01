@@ -36,7 +36,7 @@
 	<form:form method="post" name="funcionario" modelAttribute="funcionario" action="/Spring4MVCApacheTiles3Example/addFuncionario">
 	<table>
 			<tr>
-				<th colspan="2">Adicionar funconário</th>
+				<th colspan="2">Adicionar funcionário</th>
 			</tr>
 			<tr>
 			<form:hidden path="matricula" />

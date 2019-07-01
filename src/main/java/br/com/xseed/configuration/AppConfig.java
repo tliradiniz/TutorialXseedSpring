@@ -1,5 +1,8 @@
 package br.com.xseed.configuration;
 
+import javax.transaction.Transaction;
+import javax.transaction.TransactionManager;
+
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
@@ -14,6 +17,8 @@ import org.springframework.web.servlet.view.tiles3.TilesViewResolver;
 @EnableWebMvc
 public class AppConfig extends WebMvcConfigurerAdapter{
 
+	
+	
 	@Bean
 	public TilesConfigurer tilesConfigurer(){
 	    TilesConfigurer tilesConfigurer = new TilesConfigurer();

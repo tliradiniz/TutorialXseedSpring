@@ -53,11 +53,6 @@ public class AppController {
 		return "funcionarios";
 	}
 
-	@RequestMapping(value = "/getFuncionario/{matricula}", method = RequestMethod.GET, headers = "Accept=application/json")
-	public Funcionario getFuncionarioById(@PathVariable int id) {
-		return funcionarioService.getFuncionario(id);
-	}
-
 	@PostMapping(value = "/addFuncionario", produces = { MediaType.APPLICATION_JSON_VALUE })
     @ResponseBody
 	public FuncionarioResponse addFuncionario(@ModelAttribute @Valid Funcionario funcionario, BindingResult result) {	

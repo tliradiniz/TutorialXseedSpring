@@ -19,7 +19,7 @@
        <put-attribute name="body" value="/WEB-INF/views/pages/home.jsp" />  
    </definition>  
 
-   <!-- Product Page -->
+   <!-- Employee Page -->
    <definition name="funcionarios" extends="base-definition">  
        <put-attribute name="title" value="Funcionarios" />  
        <put-attribute name="body" value="/WEB-INF/views/pages/funcionarios.jsp" />  
